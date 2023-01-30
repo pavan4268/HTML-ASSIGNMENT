@@ -130,8 +130,102 @@
   display: flex;
 }
 
+/* media query */
+@media screen and (min-width: 360px) and (max-width: 539px) {
+  #img1 {
+    width: 85%;
+    height: 85%;
+    justify-items: center;
+    /* justify-content: center; */
+  }
+  #temp {
+    display: block;
+    justify-items: center;
+  }
+  #content {
+    align-items: center;
+    /* justify-items: center; */
+  }
+  #div2 {
+    width: 90%;
+    justify-items: center;
+  }
+  #div3 {
+    width: 90%;
+    height: 100%;
+    margin-top: 90px;
+    justify-items: center;
+  }
+  #div4 {
+    width: 85%;
+    justify-items: center;
+  }
+  #div5 {
+    width: 85%;
+    justify-items: center;
+  }
+  #div6 {
+    width: 100%;
+  }
+  #div7 {
+    width: 100%;
+  }
+  #div8 {
+    width: 100%;
+  }
+  #spn2 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 768px) {
+  #img1 {
+    width: 50%;
+    height: 50%;
+    justify-items: center;
+  }
+  #temp {
+    display: inline;
+    justify-items: center;
+  }
+  #temp2 {
+    width: 100%;
+    height: 100%;
+  }
+  #spn1 {
+    width: 100%;
+    font-size: 100%;
+  }
+  #div2 {
+    width: 100%;
+    font-size: 100%;
+  }
+  #div3 {
+    width: 100%;
+    font-size: 100%;
+  }
+  #div4 {
+    width: 85%;
+  }
+  #div5 {
+    width: 85%;
+  }
+  #div6 {
+    width: 100%;
+  }
+  #div7 {
+    width: 100%;
+  }
+  #div8 {
+    width: 100%;
+  }
+  #spn2 {
+    width: 100%;
+  }
+}
+
 /* DASHBOARD CSS */
-#Container {
+/* #Container {
   display: flex;
 }
 #topbar {
@@ -369,7 +463,7 @@
   color: #000000;
   opacity: 1;
   /* float: right; */
-  font-weight: bold;
+/* font-weight: bold;
 }
 #windows {
   display: inline;
@@ -383,19 +477,19 @@
   height: 116px;
   background: #ffffff 0% 0% no-repeat padding-box;
   border-radius: 5px;
-  opacity: 1;
-  /* display: flex;
+  opacity: 1; */
+/* display: flex;
   flex-direction: column; */
-}
+/* }
 #new-product-img {
   top: 223px;
   left: 330px;
   width: 33px;
-  height: 33px;
-  /* background: #c8242f 0% 0% no-repeat padding-box; */
-  opacity: 1;
-  /* display: inline; */
-}
+  height: 33px; */
+/* background: #c8242f 0% 0% no-repeat padding-box; */
+/* opacity: 1; */
+/* display: inline; */
+/* }
 #new-product-num {
   top: 213px;
   left: 383px;
@@ -431,10 +525,10 @@
   top: 223px;
   left: 579px;
   width: 27px;
-  height: 27px;
+  height: 27px; */
 
-  /* background: #c8242f 0% 0% no-repeat padding-box; */
-}
+/* background: #c8242f 0% 0% no-repeat padding-box; */
+/* }
 #added-products-num {
   top: 213px;
   left: 625px;
@@ -469,9 +563,9 @@
   top: 227px;
   left: 831px;
   width: 26px;
-  height: 26px;
-  /* background: #c8242f 0% 0% no-repeat padding-box; */
-  opacity: 1;
+  height: 26px; */
+/* background: #c8242f 0% 0% no-repeat padding-box; */
+/* opacity: 1;
 }
 #total-products-num {
   top: 213px;
@@ -509,9 +603,9 @@
   top: 223px;
   left: 1084px;
   width: 33px;
-  height: 33px;
-  /* background: #c8242f 0% 0% no-repeat padding-box; */
-  opacity: 1;
+  height: 33px; */
+/* background: #c8242f 0% 0% no-repeat padding-box; */
+/* opacity: 1;
 }
 #today-sales-num {
   top: 213px;
@@ -549,9 +643,9 @@
   top: 225px;
   left: 1332px;
   width: 29px;
-  height: 30px;
-  /* background: #C8242F 0% 0% no-repeat padding-box; */
-  opacity: 1;
+  height: 30px; */
+/* background: #C8242F 0% 0% no-repeat padding-box; */
+/* opacity: 1;
 }
 #total-sale-num {
   top: 213px;
@@ -607,6 +701,7 @@
   text-align: left;
   font: normal normal normal 12px/16px Roboto;
   letter-spacing: 0px;
+
   color: #c8242f;
   opacity: 1;
   position: absolute;
@@ -639,6 +734,8 @@
   width: 129px;
   height: 153px;
   /* background: #c8242f 0% 0% no-repeat padding-box; */
-  opacity: 1;
+/* opacity: 1;
   position: absolute;
-}
+} */
+
+/* CSS for innerpage */

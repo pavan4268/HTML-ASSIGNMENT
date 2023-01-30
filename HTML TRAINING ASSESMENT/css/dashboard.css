@@ -1,0 +1,131 @@
+/* Navbar CSS */
+
+#navbar {
+  display: flex;
+  /* align-items: center; */
+  justify-content: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: 100%;
+  height: 80px;
+}
+
+#menubar {
+  width: 25px;
+  height: 25px;
+  margin-top: 34px;
+  margin-left: 29px;
+  padding: 0px;
+}
+
+#header-logo {
+  width: 142px;
+  height: 35px;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+#search-icon {
+  width: 20px;
+  height: 20px;
+  margin-top: 37px;
+  margin-left: 76.67px;
+}
+
+#search-text {
+  width: 49px;
+  height: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 34px;
+  margin-left: 14.74px;
+}
+
+#notification {
+  margin-left: auto;
+  width: 21.52px;
+  height: 21.06px;
+  margin-top: 35px;
+  margin-right: 52.28px;
+}
+
+#profile {
+  width: 44px;
+  height: 44px;
+  margin-top: 23px;
+  margin-right: 14.54px;
+}
+
+#john-text {
+  width: 70px;
+  height: 23px;
+  margin-top: 33px;
+  margin-right: 14.54px;
+  font-weight: 500;
+}
+
+#downward {
+  width: 30px;
+  height: 20px;
+  margin-top: 37.5px;
+  margin-right: 43.53px;
+}
+
+/* Menu types CSS */
+
+#types-menu {
+  margin: 0px;
+  margin-left: 32px;
+  margin-top: 50px;
+  max-width: 200px;
+  display: inline-block;
+}
+
+.menu-types-div {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+.menu-logos {
+  width: 23px;
+  height: 23px;
+}
+
+.menu-types-desc {
+  display: inline;
+  margin-left: 12px;
+}
+
+#dash-1 {
+  background-color: #fff3f4;
+  color: #c8242f;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+/* Main Content CSS */
+#temp {
+  display: flex;
+  max-height: 100%;
+}
+
+#main-content {
+  background-color: #fff3f4;
+  max-width: 100%;
+  margin-top: 25px;
+  margin-left: 20px;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#dash-values {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 102px;
+}
+
+.temp2 {
+  display: flex;
+  /* background-color: ; */
+  width: 300px;
+}

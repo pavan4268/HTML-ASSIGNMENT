@@ -5,125 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/dashboard.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <style></style>
   </head>
   <body>
-    <div id="topbar">
-      <div id="menu-img"><img src="images/menu-bar.svg" alt="" /></div>
-      <div id="comp-logo"><img src="images/header-logo.svg" alt="" /></div>
-      <div id="search-symbol">
-        <img src="images/search-icon.svg" alt="" />
-      </div>
-      <p id="search-txt">Search</p>
-      <div id="notification-icon">
-        <img src="images/notification-icon.svg" alt="" />
-      </div>
-      <div id="profile"><img src="images/profile.png" alt="" /></div>
-      <p id="profile-txt">John Doe</p>
-      <div id="downward-arrow">
-        <img src="images/downward-arrow.svg" alt="" />
-      </div>
-    </div>
-    <div id="Container">
-      <div id="sidebar">
-        <div id="dashboard">
-          <div id="dashboard-img">
-            <img src="images/dashboard-active.svg" alt="" />
-          </div>
-          <p id="dashboard-txt">Dashboard</p>
+    <!-- Navbar Content -->
+
+    <nav class="container" id="navbar">
+      <img src="/images/menu-bar.svg" alt="" id="menubar" />
+      <img src="/images/header-logo.svg" alt="" id="header-logo" />
+      <img src="/images/search-icon.svg" alt="" id="search-icon" />
+      <p id="search-text">Search</p>
+      <img src="/images/notification-icon.svg" alt="" id="notification" />
+      <img src="/images/profile.png" alt="" id="profile" />
+      <p id="john-text">John Doe</p>
+      <img src="/images/downward-arrow.svg" alt="" id="downward" />
+    </nav>
+
+    <!-- Menu Content -->
+    <div id="temp">
+      <div class="container" id="types-menu">
+        <div id="dash-1" class="menu-types-div">
+          <img src="/images/dashboard-active.svg" alt="" class="menu-logos" />
+          <p class="menu-types-desc">Dashboard</p>
         </div>
-        <div id="analysis">
-          <div id="analysis-img">
-            <img src="images/graph-default.svg" alt="" />
-          </div>
-          <p id="analysis-txt">Analysis</p>
+        <div class="menu-types-div">
+          <img src="/images/graph-default.svg" alt="" class="menu-logos" />
+          <p class="menu-types-desc">Analysis</p>
         </div>
-        <div id="inbox">
-          <div id="inbox-img">
-            <img src="images/inbox-default.svg" alt="" />
-          </div>
-          <div id="inbox-txt"><p>Inbox</p></div>
+        <div class="menu-types-div">
+          <img src="/images/inbox-default.svg" alt="" class="menu-logos" />
+          <p class="menu-types-desc">Inbox</p>
         </div>
-        <div id="history">
-          <div id="history-img">
-            <img src="images/clock-default.svg" alt="" />
-          </div>
-          <div id="history-txt"><p>History</p></div>
+        <div class="menu-types-div">
+          <img src="/images/clock-default.svg" alt="" class="menu-logos" />
+          <p class="menu-types-desc">History</p>
         </div>
-        <div id="user">
-          <div id="user-img">
-            <img src="images/user-default.svg" alt="" />
-          </div>
-          <div id="user-txt"><p>Users</p></div>
+        <div class="menu-types-div">
+          <img src="/images/user-default.svg" alt="" class="menu-logos" />
+          <p class="menu-types-desc">Users</p>
         </div>
-        <div id="maintenance">
-          <div id="maintenance-img">
-            <img src="images/maintenance-default.svg" alt="" />
-          </div>
-          <div id="maintenance-txt"><p>Maintenance</p></div>
+        <div class="menu-types-div">
+          <img
+            src="/images/maintenance-default.svg"
+            alt=""
+            class="menu-logos"
+          />
+          <p class="menu-types-desc">Maintenance</p>
         </div>
-        <div id="setting">
-          <div id="setting-img">
-            <img src="images/setting-default.svg" alt="" />
-          </div>
-          <div id="setting-txt"><p>Settings</p></div>
+        <div class="menu-types-div">
+          <img src="/images/setting-default.svg" alt="" class="menu-logos" />
+          <p class="menu-types-desc">Setting</p>
         </div>
       </div>
-      <div id="right-side">
-        <div id="dashboard-word">
-          <p>Dashboard</p>
-        </div>
-        <div id="windows">
-          <div id="new-products">
-            <div id="new-product-img">
-              <img src="images/star.svg" alt="" />
+
+      <!-- The Main Content -->
+      <div class="container" id="main-content">
+        <div id="dash-values">
+          <div class="temp2">
+            <img src="/images/star.svg" alt="" class="dash-values-img" />
+            <div>
+              <span>23,456</span>
+              <p>New, Products</p>
             </div>
-            <div id="new-product-num">
-              <p>23456</p>
+          </div>
+          <div class="temp2">
+            <img src="/images/star.svg" alt="" class="dash-values-img" />
+            <div>
+              <span>23,456</span>
+              <p>New, Products</p>
             </div>
-            <div id="new-product-txt"><p>New Products</p></div>
           </div>
-          <div id="added-products">
-            <div id="added-products-img">
-              <img src="images/new-product.svg" alt="" />
+          <div class="temp2">
+            <img src="/images/star.svg" alt="" class="dash-values-img" />
+            <div>
+              <span>23,456</span>
+              <p>New, Products</p>
             </div>
-            <div id="added-products-num"><p>2345</p></div>
-            <div id="added-products-txt"><p>Added Products</p></div>
           </div>
-          <div id="total-products">
-            <div id="total-products-img">
-              <img src="images/total-product.svg" alt="" />
+          <div class="temp2">
+            <img src="/images/star.svg" alt="" class="dash-values-img" />
+            <div>
+              <span>23,456</span>
+              <p>New, Products</p>
             </div>
-            <div id="total-products-num"><p>32456</p></div>
-            <div id="total-products-txt"><p>Total Products</p></div>
           </div>
-          <div id="today-sales">
-            <div id="today-sales-img">
-              <img src="images/dollar-filled.svg" alt="" />
+          <div class="temp2">
+            <img src="/images/star.svg" alt="" class="dash-values-img" />
+            <div>
+              <span>23,456</span>
+              <p>New, Products</p>
             </div>
-            <div id="today-sales-num"><p>5678</p></div>
-            <div id="today-sales-txt"><p>Today's Sales</p></div>
-          </div>
-          <div id="total-sale">
-            <div id="total-sale-img">
-              <img src="images/money-bag.svg" alt="" />
-            </div>
-            <div id="total-sale-num"><p>335342</p></div>
-            <div id="total-sale-txt"><p>Total Sale</p></div>
-          </div>
-        </div>
-        <div id="visuals">
-          <div id="sale-txt"><p>sale</p></div>
-          <div id="weekly-monthly-txt"><p>Weekly Monthly</p></div>
-          <div id="yearly-txt"><p>Yearly</p></div>
-          <div id="graph">
-            <img src="images/data-graph.png" alt="" />
-          </div>
-          <div id="sales-by-country-txt"><p>Sales By Country</p></div>
-          <div id="pie-chart">
-            <img src="images/pie-chart.svg" alt="" />
           </div>
         </div>
       </div>
