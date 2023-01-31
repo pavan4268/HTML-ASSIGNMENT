@@ -21,9 +21,11 @@
       <img src="/images/downward-arrow.svg" alt="" id="downward" />
     </nav>
 
+    
+    
     <!-- Menu Content -->
-    <div id="temp">
-      <div class="container" id="types-menu">
+    <div class="temp">
+      <div class="container" id="typesmenu">
         <div id="dash-1" class="menu-types-div">
           <img src="/images/dashboard-active.svg" alt="" class="menu-logos" />
           <p class="menu-types-desc">Dashboard</p>
@@ -57,210 +59,281 @@
           <p class="menu-types-desc">Setting</p>
         </div>
       </div>
-    
 
       <!-- form content -->
 
       <div id="form-content">
         <p id="analysis-txt">Analysis</p>
         <p id="one-column-txt">One Column</p>
-        <input id="name-input" type="text" placeholder="Name" />
-        <select id="dropdown-menu">
-          <option>Dropdown</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-        </select>
-
-        <textarea
-          id="jumbo-box"
-          rows="3"
-          placeholder="Multiple Line"
-        ></textarea>
-
-        <!-- two column -->
-        <p id="two-column-txt">Two Column</p>
-        <div id="id1"></div>
-        <input id="name2-input" type="text" placeholder="Name" />
-        <input id="username-input" type="text" placeholder="Username" />
-      </div>
-      <input id="password-input" type="password" placeholder="password" />
-
-      <select id="dropdown-menu-2">
-        <option>Dropdown</option>
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-      </select>
-
-      <!-- three column -->
-      <p id="three-column-txt">Three Column</p>
-      <input id="focus-input" type="text" placeholder="focus" />
-      <input id="password-input-2" type="Password" placeholder="Password" />
-      <input id="disabled-input" type="text" placeholder="disabled" disabled />
-
-      <!-- four column -->
-
-      <p id="four-column-txt">Four Column</p>
-      <div id="four-column">
-        <div id="designation">
-          <input id="designation-input" type="text" placeholder="designation" />
-          <p id="help-block">Enter valid data</p>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            id="name-input"
+            aria-describedby="emailHelp"
+            placeholder="Name"
+          />
         </div>
-        <div id="name">
-          <input id="name3-input" type="text" placeholder="Name" />
-          <p id="help-block-2">Enter your full name as per id</p>
-        </div>
-        <div id="username">
-          <input id="username-input-2" type="text" placeholder="Username" />
-        </div>
-        <div id="select1">
-          <select id="dropdown-menu-3">
+        <div class="form-group"></div>
+        <div class="form-group">
+          <select class="form-control" id="dropdown-menu">
             <option>Dropdown</option>
-            <option>1</option>
             <option>2</option>
             <option>3</option>
             <option>4</option>
             <option>5</option>
           </select>
         </div>
-      </div>
 
-      <!-- other design -->
-      <p id="other-design">Other Design Elements</p>
-
-      <!-- file upload -->
-      <p id="file-upload-txt">File Upload</p>
-      <div id="file-upload">
-        <div id="upload">
-          <img id="upload-img" src="images/cloud-upload-icon.svg" alt="" />
-          <p id="upload-txt">Upload</p>
+        <div class="form-group">
+          <textarea
+            class="form-control rounded-0"
+            id="jumbo-box"
+            rows="3"
+            placeholder="Multiple Line"
+          ></textarea>
         </div>
-        <p id="no-item-selected">No item selected</p>
-      </div>
 
-      <!-- radio button -->
-      <p id="radio-button-txt">Radio Button</p>
-      <div id="radio-button">
-        <input id="radio-btn-1" name="radio-btn" type="radio" /><label
-          id="option1"
-          >Option 1</label
-        >
-        <input id="radio-btn-2" name="radio-btn" type="radio" checked /><label
-          id="option2"
-          >Option 2</label
-        >
-      </div>
-
-      <!-- check box -->
-      <p id="checkbox-txt">Check Box</p>
-      <div id="check-box">
-        <input type="checkbox" id="check-box-1" /><label id="option1"
-          >Option 1</label
-        >
-        <input type="checkbox" id="check-box-2" checked /><label id="option2"
-          >Option 2</label
-        >
-      </div>
-
-      <!-- snackbar -->
-      <p id="snackbar-txt">Snackbar</p>
-      <div id="msg1">
-        <div id="error-message">
-          <img id="error-img" src="images/error-icon.svg" alt="" />
-          <p id="error-message-txt">This is an error message</p>
+        <!-- two column -->
+        <p id="two-column-txt">Two Column</p>
+        <div class="id1"></div>
+        <div class="id11">
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            id="name2-input"
+            aria-describedby="emailHelp"
+            placeholder="Name"
+          />
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            id="username-input"
+            aria-describedby="emailHelp"
+            placeholder="Username"
+          />
         </div>
-        <div id="info-message">
-          <img id="info-img" src="images/info-icon.svg" alt="" />
-          <p id="info-txt">This is an information message!</p>
+        <div class="id12">
+          <div class="form-group">
+            <input type="password" class="form-control" id="password-input" placeholder="Password">
+          </div>
+
+          <div class="form-group"></div>
+          <div class="form-group">
+            <select class="form-control" id="dropdown-menu-2">
+              <option>Dropdown</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+
+
+        <!-- three column -->
+
+        <p id="three-column-txt">Three Column</p>
+        <div class="three-column">
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            id="focus-input"
+            aria-describedby="emailHelp"
+            placeholder="Focus"
+          />
+          <div class="form-group">
+            <input type="password" class="form-control" id="password-input-2" placeholder="Password">
+          </div>
+        <input
+          id="disabled-input"
+          type="text"
+          placeholder="disabled"
+          disabled
+        />
         </div>
       </div>
-      <div id="msg2">
-        <div id="warning-message">
-          <img id="warning-img" src="images/warning-icon.svg" alt="" />
-          <p id="warning-message-txt">This is an warning message</p>
+        <!-- four column -->
+
+        <p id="four-column-txt">Four Column</p>
+        <div id="four-column">
+          <div id="designation">
+            <input
+              id="designation-input"
+              type="text"
+              placeholder="designation"
+            />
+            <p id="help-block">Enter valid data</p>
+          </div>
+          <div id="name">
+            <input id="name3-input" type="text" placeholder="Name" />
+            <p id="help-block-2">Enter your full name as per id</p>
+          </div>
+          <div id="username">
+            <input id="username-input-2" type="text" placeholder="Username" />
+          </div>
+          <div id="select1">
+            <select id="dropdown-menu-3">
+              <option>Dropdown</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
         </div>
-        <div id="success-message">
-          <img id="success-img" src="images/success-icon.svg" alt="" />
-          <p id="success-message-txt">This is an success message!</p>
+
+        <!-- other design -->
+        <p id="other-design">Other Design Elements</p>
+
+        <!-- file upload -->
+        <p id="file-upload-txt">File Upload</p>
+        <div id="file-upload">
+          <div id="upload">
+            <img id="upload-img" src="images/cloud-upload-icon.svg" alt="" />
+            <p id="upload-txt">Upload</p>
+          </div>
+          <p id="no-item-selected">No item selected</p>
         </div>
-      </div>
 
-      <!-- call to action -->
-      <p id="call-to-action-txt">Call to action</p>
-      <button id="primary-btn">Primary</button>
-      <button id="secondary-btn">Secondary</button>
+        <!-- radio button -->
+        <p id="radio-button-txt">Radio Button</p>
+        <div id="radio-button">
+          <input id="radio-btn-1" name="radio-btn" type="radio" /><label
+            id="option1"
+            >Option 1</label
+          >
+          <input id="radio-btn-2" name="radio-btn" type="radio" checked /><label
+            id="option2"
+            >Option 2</label
+          >
+        </div>
 
-      <!-- tabs -->
-      <p id="tab-txt">Tabs</p>
-      
-      <!-- Tabs navs -->
-<ul class="nav nav-tabs mb-3" id="ex1" role="tablist">
-  <li class="nav-item" role="presentation">
-    <a
-      class="nav-link active"
-      id="ex1-tab-1"
-      data-mdb-toggle="tab"
-      href="#ex1-tabs-1"
-      role="tab"
-      aria-controls="ex1-tabs-1"
-      aria-selected="true"
-      >Tab 1</a
-    >
-  </li>
-  <li class="nav-item" role="presentation">
-    <a
-      class="nav-link"
-      id="ex1-tab-2"
-      data-mdb-toggle="tab"
-      href="#ex1-tabs-2"
-      role="tab"
-      aria-controls="ex1-tabs-2"
-      aria-selected="false"
-      >Tab 2</a
-    >
-  </li>
-  <li class="nav-item" role="presentation">
-    <a
-      class="nav-link"
-      id="ex1-tab-3"
-      data-mdb-toggle="tab"
-      href="#ex1-tabs-3"
-      role="tab"
-      aria-controls="ex1-tabs-3"
-      aria-selected="false"
-      >Tab 3</a
-    >
-  </li>
-</ul>
-<!-- Tabs navs -->
+        <!-- check box -->
+        <p id="checkbox-txt">Check Box</p>
+        <div id="check-box">
+          <input type="checkbox" id="check-box-1" /><label id="option1"
+            >Option 1</label
+          >
+          <input type="checkbox" id="check-box-2" checked /><label id="option2"
+            >Option 2</label
+          >
+        </div>
 
-<!-- Tabs content -->
-<div class="tab-content" id="ex1-content">
-  <div
-    class="tab-pane fade show active"
-    id="ex1-tabs-1"
-    role="tabpanel"
-    aria-labelledby="ex1-tab-1"
-  >
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas ex odio repellat minima magni molestiae quos perferendis maiores? Numquam voluptatem nulla explicabo magnam similique ullam, recusandae libero enim quaerat quisquam nihil at voluptas quia nostrum harum adipisci, minima laborum inventore. Voluptatem repudiandae quis officiis iusto quas labore repellat illo explicabo maxime commodi suscipit, accusamus, eos dignissimos iure nostrum. Ut ducimus, at voluptatum voluptate nihil qui praesentium.
-  </div>
-  <div class="tab-pane fade" id="ex1-tabs-2" role="tabpanel" aria-labelledby="ex1-tab-2">
-    Tab 2 content
-  </div>
-  <div class="tab-pane fade" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
-    Tab 3 content
-  </div>
-</div>
-<!-- Tabs content -->
-        
-      </nav>
+        <!-- snackbar -->
+        <p id="snackbar-txt">Snackbar</p>
+        <div class="snackbar">
+          <div id="msg1">
+            <div id="error-message">
+              <img id="error-img" src="images/error-icon.svg" alt="" />
+              <p id="error-message-txt">This is an error message</p>
+            </div>
+            <div id="info-message">
+              <img id="info-img" src="images/info-icon.svg" alt="" />
+              <p id="info-txt">This is an information message!</p>
+            </div>
+          </div>
+          <div id="msg2">
+            <div id="warning-message">
+              <img id="warning-img" src="images/warning-icon.svg" alt="" />
+              <p id="warning-message-txt">This is an warning message</p>
+            </div>
+            <div id="success-message">
+              <img id="success-img" src="images/success-icon.svg" alt="" />
+              <p id="success-message-txt">This is an success message!</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- call to action -->
+        <p id="call-to-action-txt">Call to action</p>
+        <button id="primary-btn">Primary</button>
+        <button id="secondary-btn">Secondary</button>
+
+        <!-- tabs -->
+        <p id="tab-txt">Tabs</p>
+
+        <!-- Tabs navs -->
+        <ul class="nav nav-tabs mb-3" id="ex1" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a
+              class="nav-link active"
+              id="ex1-tab-1"
+              data-mdb-toggle="tab"
+              href="#ex1-tabs-1"
+              role="tab"
+              aria-controls="ex1-tabs-1"
+              aria-selected="true"
+              >Tab 1</a
+            >
+          </li>
+          <li class="nav-item" role="presentation">
+            <a
+              class="nav-link"
+              id="ex1-tab-2"
+              data-mdb-toggle="tab"
+              href="#ex1-tabs-2"
+              role="tab"
+              aria-controls="ex1-tabs-2"
+              aria-selected="false"
+              >Tab 2</a
+            >
+          </li>
+          <li class="nav-item" role="presentation">
+            <a
+              class="nav-link"
+              id="ex1-tab-3"
+              data-mdb-toggle="tab"
+              href="#ex1-tabs-3"
+              role="tab"
+              aria-controls="ex1-tabs-3"
+              aria-selected="false"
+              >Tab 3</a
+            >
+          </li>
+        </ul>
+        <!-- Tabs navs -->
+
+        <!-- Tabs content -->
+        <div class="tab-content" id="ex1-content">
+          <div
+            class="tab-pane fade show active"
+            id="ex1-tabs-1"
+            role="tabpanel"
+            aria-labelledby="ex1-tab-1"
+          >
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas ex
+            odio repellat minima magni molestiae quos perferendis maiores?
+            Numquam voluptatem nulla explicabo magnam similique ullam,
+            recusandae libero enim quaerat quisquam nihil at voluptas quia
+            nostrum harum adipisci, minima laborum inventore. Voluptatem
+            repudiandae quis officiis iusto quas labore repellat illo explicabo
+            maxime commodi suscipit, accusamus, eos dignissimos iure nostrum. Ut
+            ducimus, at voluptatum voluptate nihil qui praesentium.
+          </div>
+          <div
+            class="tab-pane fade"
+            id="ex1-tabs-2"
+            role="tabpanel"
+            aria-labelledby="ex1-tab-2"
+          >
+            Tab 2 content
+          </div>
+          <div
+            class="tab-pane fade"
+            id="ex1-tabs-3"
+            role="tabpanel"
+            aria-labelledby="ex1-tab-3"
+          >
+            Tab 3 content
+          </div>
         </div>
       </div>
     </div>
+    <script src="C:\Users\PAVAN\Desktop\Project\HTML TRAINING ASSESMENT\js\custom.js"></script>
   </body>
 </html>

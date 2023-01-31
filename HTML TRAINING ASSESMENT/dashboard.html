@@ -4,14 +4,81 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="css/dashboard.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <style></style>
+
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
   </head>
   <body>
-    <!-- Navbar Content -->
+    <!-- <div class="topnavbar">
+      <div class="topleftnavbar">
+        <img
+          src="../images/menu-bar.svg"
+          class="menudesign"
+          width="30px"
+          height="24px"
+        />
+        <img
+          src="../images/header-logo.svg"
+          class="logo"
+          width="142px"
+          height="30px"
+        />
+        <img src="../images//search-icon.svg" class="searchicon" />
+        <input
+          type="text"
+          class="form-control"
+          id="search-icon"
+          aria-describedby="emailHelp"
+          placeholder="Search"
+          class="search-control"
+        />
+      </div>
+      <div class="toprightnavbar">
+        <img src="../images/notification-icon.svg" class="notification" />
+        <img src="../images/profile.png" class="profile" />
+        <select class="dropdesign">
+          <option value="John Doe">John Doe</option>
+        </select>
+      </div>
+    </div>
 
+    <div class="content">
+
+        <div class="sidebar">
+        <div class="eachsidemenu"><a href="#" class="link">
+                <div style="background-color:#FFF3F4;padding:15px;margin-left: 30px;margin-right:30px;display: flex;"><img
+                        src="../images/dashboard-active.svg" width="16px" height="16px"><span
+                        style="margin-left: 12px;color:#C8242F;">Dashboard</span></div>
+            </a></div>
+        <div class="eachsidemenu" style="padding-top:17px;"><a href="#" class="link">
+                <div style="display: flex;"><img src="../images/graph-default.svg" width="16px" height="16px"
+                        style="margin-left: 47px;"><span style="margin-left: 12px;">Analysis</span></div>
+            </a></div>
+        <div class="eachsidemenu"><a href="#" class="link">
+                <div style="display: flex;"><img src="../images/inbox-default.svg" width="16px" height="16px"
+                        style="margin-left: 47px;"><span style="margin-left: 12px;">Inbox</span></div>
+            </a></div>
+        <div class="eachsidemenu"><a href="#" class="link">
+                <div style="display: flex;"><img src="../images/clock-default.svg" width="16px" height="16px"
+                        style="margin-left: 47px;"><span style="margin-left: 12px;">History</span></div>
+            </a></div>
+        <div class="eachsidemenu"><a href="#" class="link">
+                <div style="display: flex;"><img src="../images//user-default.svg" width="16px" height="16px"
+                        style="margin-left: 47px;"><span style="margin-left: 12px;">Users</span></div>
+            </a></div>
+        <div class="eachsidemenu"><a href="#" class="link">
+                <div style="display: flex;"><img src="../images/maintenance-default.svg" width="16px" height="16px"
+                        style="margin-left: 47px;"><span style="margin-left: 12px;">Maintenance</span></div>
+            </a></div>
+        <div class="eachsidemenu"><a href="#" class="link">
+                <div style="display: flex;"><img src="../images/setting-default.svg" width="16px" height="16px"
+                        style="margin-left: 47px;"><span style="margin-left: 12px;">Setting</span></div>
+            </a></div>
+        </div> -->
+
+    <!--nav bar  -->
     <nav class="container" id="navbar">
       <img src="/images/menu-bar.svg" alt="" id="menubar" />
       <img src="/images/header-logo.svg" alt="" id="header-logo" />
@@ -24,8 +91,8 @@
     </nav>
 
     <!-- Menu Content -->
-    <div id="temp">
-      <div class="container" id="types-menu">
+    <div class="temp">
+      <div class="container" id="typesmenu">
         <div id="dash-1" class="menu-types-div">
           <img src="/images/dashboard-active.svg" alt="" class="menu-logos" />
           <p class="menu-types-desc">Dashboard</p>
@@ -60,43 +127,240 @@
         </div>
       </div>
 
-      <!-- The Main Content -->
-      <div class="container" id="main-content">
-        <div id="dash-values">
-          <div class="temp2">
-            <img src="/images/star.svg" alt="" class="dash-values-img" />
-            <div>
-              <span>23,456</span>
-              <p>New, Products</p>
+      <!--  -->
+      <div class="maindashboard">
+        <p class="dash">Dashboard</p>
+        <div class="cards">
+          <div class="card1">
+            <div
+              style="
+                display: flex;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <div style="display: flex">
+                <img src="../images/star.svg" />
+                <div style="margin-left: 20px">
+                  <p class="bigfont">23,456</p>
+                  <p class="smallfont">New Products</p>
+                </div>
+              </div>
+              <div></div>
             </div>
           </div>
-          <div class="temp2">
-            <img src="/images/star.svg" alt="" class="dash-values-img" />
-            <div>
-              <span>23,456</span>
-              <p>New, Products</p>
+          <div class="card2">
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <div style="display: flex">
+                <img src="../images/new-product.svg" />
+                <div style="margin-left: 20px">
+                  <p class="bigfont">2345</p>
+                  <p class="smallfont">Added Products</p>
+                </div>
+              </div>
+              <div></div>
             </div>
           </div>
-          <div class="temp2">
-            <img src="/images/star.svg" alt="" class="dash-values-img" />
-            <div>
-              <span>23,456</span>
-              <p>New, Products</p>
+          <div class="card3">
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <div style="display: flex">
+                <img
+                  src="../images/total-product.svg"
+                  width="36px"
+                  height="36px"
+                  style="margin-top: 5px"
+                />
+                <div style="margin-left: 20px">
+                  <p class="bigfont">32,456</p>
+                  <p class="smallfont">Total Products</p>
+                </div>
+              </div>
+              <div></div>
             </div>
           </div>
-          <div class="temp2">
-            <img src="/images/star.svg" alt="" class="dash-values-img" />
-            <div>
-              <span>23,456</span>
-              <p>New, Products</p>
+          <div class="card4">
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <div style="display: flex">
+                <img src="../images/dollar-filled.svg" />
+                <div style="margin-left: 20px">
+                  <p class="bigfont">5678</p>
+                  <p class="smallfont">Today's Sale</p>
+                </div>
+              </div>
+              <div></div>
             </div>
           </div>
-          <div class="temp2">
-            <img src="/images/star.svg" alt="" class="dash-values-img" />
-            <div>
-              <span>23,456</span>
-              <p>New, Products</p>
+          <div class="card5">
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <div style="display: flex">
+                <img src="../images/money-bag.svg" />
+                <div style="margin-left: 20px">
+                  <p class="bigfont">33,5342</p>
+                  <p class="smallfont">Total Sale</p>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
+
+        <div class="graph">
+          <div class="part1">
+            <div class="subpart1">
+              <p id="gp1txt">Sale</p>
+              <div class="subcontent">
+                <p id="graph-txt-1">
+                  Weekly&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monthly
+                </p>
+              </div>
+              <div class="subcontent2">
+                <p>Yearly</p>
+              </div>
+            </div>
+            <div class="datagraph">
+              <img id="graph-img" src="/images/data-graph.png" />
+            </div>
+          </div>
+          <div class="part2">
+            <p id="gp2txt">Sales by country</p>
+            <img src="/images/pie-chart.svg" />
+            <div class="color1">
+              <div class="color-cont1">
+                <div class="r"></div>
+                <div class="n1">United States of America</div>
+                <div class="g"></div>
+                <div class="n2">Canada</div>
+              </div>
+            </div>
+            <div class="color2">
+              <div class="color-cont2">
+                <div class="o"></div>
+                <div class="n3">Russia</div>
+                <div class="y"></div>
+                <div class="n4">India</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="table">
+          <div class="subhead">
+            <div class="invoice">Invoices</div>
+            <div class="view">View All</div>
+          </div>
+          <div class="tab">
+            <form>
+              <table class="table" id="tab">
+                <thead>
+                  <tr>
+                    <th scope="col" class="tablefirst">INVOICE</th>
+                    <th scope="col" class="tablefirst">COMPANY NAME</th>
+                    <th scope="col" class="tablefirst">EMAIL</th>
+                    <th scope="col" class="tablefirst">DUE DATE</th>
+                    <th scope="col" class="tablefirst">STATUS</th>
+                    <th scope="col" class="tablefirst">AMOUNT</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>651535</td>
+                    <td>Public Adjusting Firm</td>
+                    <td>georia.young@example.com</td>
+                    <td>24 May, 2020</td>
+                    <td><button class="btndesignpaid">Paid</button></td>
+                    <td>$47,800</td>
+                  </tr>
+                  <tr>
+                    <td>558612</td>
+                    <td>Other</td>
+                    <td>jessica.hanson@example.com</td>
+                    <td>24 May, 2020</td>
+                    <td><button class="btndesignpaid">Paid</button></td>
+                    <td>$98,000</td>
+                  </tr>
+                  <tr>
+                    <td>558612</td>
+                    <td>Vendor</td>
+                    <td>alma.lawson@example.com</td>
+                    <td>8 Sep, 2020</td>
+                    <td><button class="btndesignpaid">Paid</button></td>
+                    <td>$20,900</td>
+                  </tr>
+                  <tr>
+                    <td>558612</td>
+                    <td>Property Management Company</td>
+                    <td>kenzi.lawson@example.com</td>
+                    <td>22 Oct, 2020</td>
+                    <td><button class="btndesignpaid">Paid</button></td>
+                    <td>$10,570</td>
+                  </tr>
+                  <tr>
+                    <td>651535</td>
+                    <td>Subcontractor Company</td>
+                    <td>jackson.graham@example.com</td>
+                    <td>1 Feb, 2020</td>
+                    <td><button class="btndesignfail">Failed</button></td>
+                    <td>$10,200</td>
+                  </tr>
+                  <tr>
+                    <td>653518</td>
+                    <td>Mortgage Company</td>
+                    <td>felicia.reid@example.com</td>
+                    <td>22 Oct, 2020</td>
+                    <td><button class="btndesignpending">Pending</button></td>
+                    <td>$12,600</td>
+                  </tr>
+                  <tr>
+                    <td>487441</td>
+                    <td>TPA</td>
+                    <td>dolores.chambers@example.com</td>
+                    <td>21 Sep, 2020</td>
+                    <td><button class="btndesignpaid">Paid</button></td>
+                    <td>$11,170</td>
+                  </tr>
+                  <tr>
+                    <td>267400</td>
+                    <td>Fire Department</td>
+                    <td>nevaeh.simmons@example.com</td>
+                    <td>17 Oct, 2020</td>
+                    <td><button class="btndesignfail">Failed</button></td>
+                    <td>$28,000</td>
+                  </tr>
+                  <tr>
+                    <td>449003</td>
+                    <td>Insurance Carrier</td>
+                    <td>curtis.weaver@example.com</td>
+                    <td>21 Sep, 2020</td>
+                    <td><button class="btndesignpending">Pending</button></td>
+                    <td>$10,000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </form>
           </div>
         </div>
       </div>
